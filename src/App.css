@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.Header-button {
+  width: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  display: inline-grid;
+  font-size: large;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-background {
+  width: 90%;
+  height: 1000px;
+  margin: auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.App-input {
+  width: 50%;
+  border-radius: 4px;
+}
+.App-callculatebutton {
+  width: 50%;
+  border-radius: 4px;
+  color: cyan;
+  background-color: #282c34;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.grid-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-left: 10px;
+  gap: 8px;
+}
+
+.grid-container a {
+  width: 200px;
+}

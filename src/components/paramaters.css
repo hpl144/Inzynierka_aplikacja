@@ -1,0 +1,31 @@
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.row > * {
+  width: 200px;
+  outline: 1px solid black;
+  padding: 20px;
+  margin: 0;
+}
+
+.row-header > * {
+  width: 400px;
+  padding: 20px;
+  outline: 1px solid black;
+}
+
+.inputs-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inputs-container > * {
+  padding: 10px;
+}
+
+form {
+  padding-left: 20px;
+}
